@@ -5,15 +5,15 @@ name = "pypi"
 
 [packages]
 stable-baselines = {extras = ["mpi"], version = "*"}
-numpy = "*"
-pandas = "*"
+numpy = "==1.16.4"
+pandas = "==1.0.3"
 stockstats = "*"
-scikit-learn = "*"
-gym = "*"
-tensorflow = "*"
-joblib = "*"
-matplotlib = "*"
-pytest = "*"
+scikit-learn = "==0.21.0"
+gym = "==0.15.3"
+tensorflow = "==1.15.4"
+joblib = "==0.15.1"
+matplotlib = "==3.2.1"
+pytest = "<6.0.0,>=5.3.2"
 setuptools = "*"
 wheel = "*"
 
