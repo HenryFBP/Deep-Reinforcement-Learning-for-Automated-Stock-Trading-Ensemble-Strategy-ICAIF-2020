@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+stable-baselines = {extras = ["mpi"], version = "*"}
+numpy = "*"
+pandas = "*"
+stockstats = "*"
+scikit-learn = "*"
+gym = "*"
+tensorflow = "*"
+joblib = "*"
+matplotlib = "*"
+pytest = "*"
+setuptools = "*"
+wheel = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3"
